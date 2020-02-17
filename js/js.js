@@ -34,7 +34,7 @@ let myTown = {
             return this.name + " " + this.image;
         },
         showImage: function () {
-            return '<img src = "../images/'
+            return '<img src = "images/' + this.image + '" alt="Image">';
                 + this.image +
                 '" alt="Image">';
         }
